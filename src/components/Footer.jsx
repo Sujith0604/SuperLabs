@@ -1,8 +1,10 @@
 const Footer = () => {
   return (
     <footer>
-      <section className=" flex flex-col gap-8 items-center justify-center  md:h-[400px] bg-[url('/images/footer-banner.png')]">
-        <h1 className=" text-5xl font-bold">Ready to Grow Your Business?</h1>
+      <section className=" flex flex-col gap-8 items-center justify-center p-4 md:p-0  md:h-[400px] bg-[url('/images/footer-banner.png')]">
+        <h1 className=" text-3xl text-center md:text-5xl font-bold ">
+          Ready to Grow Your Business?
+        </h1>
         <div className=" flex gap-5">
           <button className=" text-red-600 bg-white hover:bg-red-600 hover:text-white  p-2 rounded-full ">
             Start selling
@@ -12,14 +14,14 @@ const Footer = () => {
           </button>
         </div>
       </section>
-      <div className=" flex md:flex-row flex-col gap-5 items-center justify-center md:justify-between  bg-black text-white h-[]500px p-10 ">
-        <div className=" flex gap-5 flex-col items-start ">
+      <div className=" flex md:flex-row flex-col gap-5 items-center justify-center md:justify-between  bg-black text-white md:h-[500px] p-10 ">
+        <div className=" flex gap-5 flex-col md:items-start items-center ">
           <img src="/images/logo-white.png" />
           <p className="text-gray-300">One Medical Devices Market Place</p>
         </div>
         <div className=" flex flex-col gap-5 h-[400px] items-center md:items-start">
           <h1 className=" text-xl font-semibold">Platforms</h1>
-          <ul className=" flex flex-col items-center md:items-start md:gap-5 text-gray-300">
+          <ul className=" flex flex-col items-center md:items-start gap-3 md:gap-5 text-gray-300">
             <li>Sell on 1MDM</li>
             <li>Pricing</li>
             <li>About us</li>
@@ -31,7 +33,7 @@ const Footer = () => {
         </div>
         <div className="  flex flex-col gap-5 h-[400px] items-center md:items-start">
           <h1 className=" text-xl font-semibold">Press Room</h1>
-          <ul className=" flex flex-col md:gap-5 items-center md:items-start text-gray-300">
+          <ul className=" flex flex-col md:gap-5 items-center gap-3 md:items-start text-gray-300">
             <li>images & B-roll</li>
             <li className=" text-xl font-semibold text-white">Policies</li>
 
@@ -42,7 +44,7 @@ const Footer = () => {
         </div>
         <div className="  flex flex-col gap-5 h-[400px] items-center md:items-start">
           <h1 className=" text-xl font-semibold">Reach Us</h1>
-          <ul className=" flex flex-col md:gap-5 text-gray-300 items-center md:items-start">
+          <ul className=" flex flex-col md:gap-5 gap-3 text-gray-300 items-center md:items-start">
             <li>Corporate Information</li>
             <li>Contact Us</li>
           </ul>

@@ -10,11 +10,13 @@ const App = () => {
   return (
     <main className=" flex flex-col font-pop">
       <Header />
-      <Herosection />
-      <About />
-      <Quotes />
-      <ModalNav />
-      <Carousal />
+      <div className="mt-[150px]">
+        <Herosection />
+        <About />
+        <Quotes />
+        <ModalNav />
+        <Carousal />
+      </div>
       <Footer />
     </main>
   );

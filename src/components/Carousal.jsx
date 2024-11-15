@@ -35,10 +35,10 @@ const Carousal = () => {
           infinite={true}
         >
           <div className="bg-white p-10">
-            <div className=" flex md:flex-row flex-col items-center justify-center  h-[600px] w-full px-[100px] ">
+            <div className=" flex md:flex-row flex-col items-center justify-center  md:h-[600px] w-full md:px-[100px] ">
               <div>
                 <img src="/images/images.png" className=" h-[50px] w-[60px]" />
-                <p className=" text-[17px]  md:h-full flex items-center  justify-center p-4">
+                <p className=" md:text-[17px]  md:h-full flex items-center  justify-center p-4">
                   Rupesh Kanna found himself in between jobs in 2016. He started
                   a blog, and wrote about his past experience as a lab
                   technician while sharing his knowledge on imaging techniques.
@@ -55,10 +55,10 @@ const Carousal = () => {
           </div>
 
           <div className="bg-white p-10">
-            <div className=" flex md:flex-row flex-col  items-center justify-center  md:h-[600px] w-full px-[100px]">
+            <div className=" flex md:flex-row flex-col  items-center justify-center  md:h-[600px] w-full md:px-[100px]">
               <div>
                 <img src="/images/images.png" className=" h-[50px] w-[60px]" />
-                <p className=" text-[17px]   h-full flex items-center bg-white justify-center p-4">
+                <p className=" md:text-[17px]   h-full flex items-center bg-white justify-center p-4">
                   Mr David runs a manufacturing company that works in this field
                   of medical devices. With administrative and production across
                   the country. With full respect for environment and several
@@ -74,10 +74,10 @@ const Carousal = () => {
           </div>
 
           <div className="bg-white p-10">
-            <div className=" flex items-center md:flex-row flex-col  justify-center  md:h-[600px] w-full px-[100px]">
+            <div className=" flex items-center md:flex-row flex-col  justify-center  md:h-[600px] w-full md:px-[100px]">
               <div>
                 <img src="/images/images.png" className=" h-[50px] w-[60px]" />
-                <p className=" text-[17px]   h-full flex items-center bg-white justify-center p-4">
+                <p className=" md:text-[17px]   h-full flex items-center bg-white justify-center p-4">
                   LTA International Global Services LLC is a Florida-based
                   export management company that sells top Medical device
                   products from major US brands to importers and distributors
@@ -96,11 +96,11 @@ const Carousal = () => {
 
           <div className="bg-white p-10">
             {" "}
-            <div className=" flex md:flex-row flex-col  items-center justify-center  md:h-[600px] w-full px-[100px]">
+            <div className=" flex md:flex-row flex-col  items-center justify-center  md:h-[600px] w-full md:px-[100px]">
               <div>
                 {" "}
                 <img src="/images/images.png" className=" h-[50px] w-[60px]" />
-                <p className=" text-[17px]   h-full flex items-center bg-white justify-center p-4">
+                <p className=" md:text-[17px]   h-full flex items-center bg-white justify-center p-4">
                   Lab Evolution is an import - export company of reagents and
                   laboratory equipment established over a decade. Our company’s
                   team of experts (in the instrumentations and reagents market)
